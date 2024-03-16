@@ -9,7 +9,7 @@ export default function Page() {
     <div className=''>
        
         <div className='flex justify-center items-center h-screen w-screen'>
-          <h1 className='text-[900px]'>Sex</h1>
+          <h1 className='text-[50px] sm:text-[900px]'>Sex</h1>
         </div>
 
     </div>
