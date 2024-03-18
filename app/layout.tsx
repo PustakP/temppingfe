@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>    
       <div className={`${styles.body} -z-10`}>
       {snowFlakes.map((_, index) => (
-        <div key={index} className={`${styles.snow} -z-10`}></div>
+        <div key={index} className={`${styles.snow} -z-10`}>@</div>
       ))}
       </div>
       <div className='z-0'>

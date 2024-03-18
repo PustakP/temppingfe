@@ -12,9 +12,9 @@
 .snow {
   $total: 200;
   position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+  // width: 10px;
+  // height: 10px;
+  // border-radius: 50%;
 
   @for $i from 1 through $total {
     $random-x: random(1000000) * 0.0001vw;
@@ -31,7 +31,7 @@
       opacity: random(10000) * 0.0001;
       transform: translate($random-x, -10px) scale($random-scale);
       animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
-      background: random-color(); // Set random color here
+      color: random-color(); // Set random color here
     }
 
     @keyframes fall-#{$i} {
